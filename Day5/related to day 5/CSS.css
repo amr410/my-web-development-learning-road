@@ -1,0 +1,14 @@
+body {
+  background-color: #ede6cb;
+  text-align: center;
+  font-size: 20px;
+}
+.ans-btn {
+  color: black;
+  text-decoration: none;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  border: solid;
+  border-radius: 13px;
+  text-shadow: 1px 1px 3px #5e5b50;
+}

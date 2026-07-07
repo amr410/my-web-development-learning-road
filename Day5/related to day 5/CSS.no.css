@@ -1,0 +1,10 @@
+body {
+  background: #ede6cb;
+  text-align: center;
+}
+mark{
+
+    background-color: #f10404;
+    border-radius: 17px;
+    padding: 10px;
+}

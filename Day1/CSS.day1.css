@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+.nav-btn {
+  background-color: #663950;
+  text-shadow: 1px 1px 5px #000000;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+header {
+  background-color: #925272;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+section {
+  background-color: #925272;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #925272;
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  border-radius: 70px;
+  text-align: center;
+}

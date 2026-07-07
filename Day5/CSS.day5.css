@@ -1,0 +1,85 @@
+header {
+  background: #2c4e1c;
+  width: 98.9%;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid;
+  border-color: black;
+}
+header mark {
+  color: beige;
+  background: #4d2b22;
+  text-shadow: 0px 1px 3px #7c7b7b;
+}
+.nav-bar {
+  margin-top: 10px;
+  overflow: hidden;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-bar ul li {
+  background: #7c7b7b;
+  border: 2px solid;
+  border-radius: 20px;
+}
+.nav-bar a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.nav-bar a:hover,
+.nav-bar a.active {
+  background: #2c4e1c;
+  color: #fff;
+  border-radius: 20px;
+}
+
+body {
+  color: beige;
+  background: #46271f;
+  text-shadow: 1px 1px 2px rgb(117, 117, 117);
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid;
+  border-color: black;
+}
+body a {
+  text-decoration: none;
+  color: rgb(247, 245, 245);
+  text-shadow: 1px 1px 3px #8f8e8e;
+}
+main {
+  background: #44261f;
+  text-decoration: none;
+}
+
+body button {
+  background: #7c7b7b;
+  border-color: beige;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+body button:hover {
+  background: #2c4e1c;
+  color: #fff;
+  border-radius: 10px;
+  text-shadow: 1px 1px 3px beige;
+}
+
+footer {
+  border: 2px solid;
+  border-color: black;
+  background: #2c4e1c;
+  width: 98.9%;
+  padding: 10px 10px 10px 10px;
+}

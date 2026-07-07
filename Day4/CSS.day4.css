@@ -1,0 +1,106 @@
+body {
+  background-color: #151f25;
+  font-size: 17px;
+
+  color: #a3a3a3;
+  text-shadow: 1px 1px 2px #000000;
+}
+body h2 {
+  color: #a3a3a3;
+  text-shadow: 1px 1px 2px #444444;
+  text-align: left;
+}
+header {
+  background-color: #003049;
+  color: #a3a3a3;
+  text-shadow: 1px 1px 2px #444444;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+header mark {
+  background-color: #a3a3a3;
+  text-shadow: 1px 1px 2px #f0ecec;
+  color: #000000;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+nav {
+  margin-top:20px;
+}
+.nav-btn {
+  background-color: #535353;
+  color: #a3a3a3;
+  text-shadow: 1px 1px 2px #000000;
+  border: none;
+  margin: 10px 5px 0 5px;
+ 
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  text-shadow: none;
+  width: 80%;
+}
+.table thead {
+  background-color: #003049;
+  color: rgb(114, 114, 114);
+  border: 2px solid #000000;
+  text-align: left;
+}
+.table th {
+  background-color: #043950;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border: 2px solid #000000;
+  padding: 8px 12px;
+  text-align: left;
+}
+.table td {
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+.table tbody tr:nth-child(even) {
+  background: #014e77;
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+.table tbody tr:nth-child(even) {
+  background: #014e77;
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+.table tbody tr:nth-child(odd) {
+  background: #535353;
+  border: 2px solid #000000;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: left;
+}
+.list {
+  list-style-type: none;
+  border: 2px solid #000000;
+  background: #535353;
+  width: 79.5%;
+}
+footer {
+  background-color: #003049;
+  color: #a3a3a3;
+  text-shadow: 1px 1px 2px #444444;
+  text-align: left;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
