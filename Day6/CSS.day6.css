@@ -1,0 +1,70 @@
+.nav-bar {
+  margin-top: 0px;
+  overflow: hidden;
+}
+.nav-bar ul {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 8px 10px;
+  background: #ff8c1a;
+  border: 2px solid beige;
+  border-radius: 6px;
+  color: #1d2b36;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+  box-shadow: 1px 1px 3px beige;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+  background: #e66f00;
+}
+header {
+  background: #0e5c74;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+body {
+  background: url("ChatGPT\ Image\ Jul\ 8\,\ 2026\,\ 09_47_45\ PM.png");
+  color: #f6fbfd;
+}
+body main {
+  font-size: larger;
+  backdrop-filter: blur(7px);
+  color: #ffffff;
+  text-shadow:
+    2px 2px 6px #000000d9,
+    0 0 3px #00000099;
+
+  border-radius: 10px;
+  padding: 10px;
+}
+.photos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.photos img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+footer {
+  font-weight: 600;
+  background: #083b4c;
+  border-radius: 5px;
+  text-shadow: 1px 2px 6px beige;
+  padding: 10px;
+}
