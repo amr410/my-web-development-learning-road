@@ -15,7 +15,6 @@ nav {
   flex-wrap: nowrap;
   overflow-x: auto;
   overflow: hiiden;
-  gap: 20px;
 }
 .nav-btn {
   background-color: #777777;
