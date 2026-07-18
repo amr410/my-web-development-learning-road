@@ -1,9 +1,11 @@
 .nav-bar {
   margin-top: 0px;
   overflow: hidden;
+  overflow-x: auto;
 }
 .nav-bar ul {
   display: flex;
+  flex-wrap: nowrap;
   gap: 12px;
   padding-left: 0;
   margin-left: 0;
