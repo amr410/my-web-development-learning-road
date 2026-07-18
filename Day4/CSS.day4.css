@@ -31,7 +31,7 @@ nav {
   display: flex;
   flex-wrap: nowrap;
   overflow: hidden;
-  overflow: auto ;
+  overflow-x: auto;
 }
 .nav-btn {
   background-color: #535353;
