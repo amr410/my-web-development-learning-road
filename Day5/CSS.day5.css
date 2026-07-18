@@ -13,9 +13,11 @@ header mark {
 .nav-bar {
   margin-top: 10px;
   overflow: hidden;
+  overflow-x: auto;
 }
 .nav-bar ul {
   display: flex;
+  flex-wrap: nowrap;
   gap: 15px;
   flex-direction: row;
 
