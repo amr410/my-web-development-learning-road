@@ -10,7 +10,12 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
-
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+}
 .nav-btn {
   background-color: #777777;
   color: #a3a3a3;
