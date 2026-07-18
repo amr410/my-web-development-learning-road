@@ -43,6 +43,14 @@ box-shadow: 0 0 12px rgba(92, 138, 255, 0.45);
   background: #1f1a31;
 }
 
+.signUp 
+{
+  display: grid;
+  padding: 15px;
+  width: 50%;
+  
+  
+}
 
 body label
 {
