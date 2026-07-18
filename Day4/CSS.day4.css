@@ -28,6 +28,10 @@ header mark {
 }
 nav {
   margin-top:20px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow: auto ;
 }
 .nav-btn {
   background-color: #535353;
