@@ -1,0 +1,105 @@
+header
+{
+background:   #0E0E52;
+padding: 10px ;
+color: #8f9091;
+width: 100%;
+height: auto;
+}
+
+.nav-bar {
+  margin-top: 0px;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.nav-bar ul {
+  display: flex;
+ flex-wrap: nowrap;
+  gap: 12px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.nav-bar ul li {
+  list-style: none;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 8px 8px;
+  background: #392F5A;
+  border: 1px solid #3943B7;
+  border-radius: 8px;
+  color: #8f9091;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+box-shadow: 0 0 12px rgba(92, 138, 255, 0.45);
+}
+
+
+.nav-bar a:hover,
+.nav-bar a.active {
+  background: #1f1a31;
+}
+
+
+body label
+{
+    font-weight: 600px;
+    
+ }
+
+ body input
+ {  
+    background: #392F5A;
+    border-radius: 8px;
+padding: 5px;    
+border-color: #3943B7;
+
+ }
+
+ input:focus
+ {
+    background: #1f1a31;
+    outline: none;
+    box-shadow: 0 0 12px rgba(92, 138, 255, 0.45);
+ }
+ button
+ {
+
+      background: #392F5A;
+  border: 1px solid #3943B7;
+  border-radius: 9px;
+  color: #8f9091;
+  padding: 5px;
+
+ }
+
+
+body
+{
+    color: #8f9091;
+    background:#140F2D;
+}
+select{
+
+        background-color: #433a70;
+    color: #8f9091;
+    border: 2px solid #3943B7;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+option {
+    background-color: #1B1638;
+    color: #8f9091;
+}
+
+footer
+{   background: #000000;
+    padding: 10px;
+    font-weight: 600;
+
+}

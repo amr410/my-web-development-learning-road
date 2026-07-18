@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Day 8</title>
+    <link rel="stylesheet" href="CSS.day8.css" />
+  </head>
+  <body>
+    <header>
+      <time datetime="2026-07-16" style="color: #000000"> July 16, 2026</time>
+
+      <h1>Day 8</h1>
+      <p>
+        i learned about form and validation so going to do some examples on it
+      </p>
+      <p>alot of forms uses need a server so i'll use a html page for now</p>
+
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="../Day1/html.day1.html" class="nav-btn">Day 1</a></li>
+          <li><a href="../Day2/html.day2.html" class="nav-btn">Day 2</a></li>
+          <li><a href="../Day3/html.day3.html" class="nav-btn">Day 3</a></li>
+          <li><a href="../Day4/html.day4.html" class="nav-btn">Day 4</a></li>
+          <li><a href="../Day5/html.day5.html" class="nav-btn">Day 5</a></li>
+          <li><a href="../Day6/html.day6.html" class="nav-btn">Day 6</a></li>
+          <li><a href="../Day7/html.day7.html" class="nav-btn">Day 7</a></li>
+          <li><a href="../Day8/html.day8.html" class="nav-btn">Day 8</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h3>all the thing that can be added to forms</h3>
+
+      <form class="signUp">
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="password">password :</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <br />
+        <label for="bdate">birthdate</label>
+        <input type="date" id="bdate" name="bdate" />
+        <br />
+        <br />
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <br />
+        <br />
+        <button type="submit">submit</button>
+        <p>don't wait for something to happen i don't have a server sooo</p>
+        <p>i can make a reset button at least</p>
+
+        <button type="reset">reset</button>
+      </form>
+
+      <hr />
+
+      <h3>a new form and don't ask why</h3>
+
+      <form action="blank.html" method="get" class="search">
+        <p>type cat</p>
+        <label for="name">just say it :</label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <br />
+        <button type="submit">submit</button>
+        <p>you don't have to type cat btw just type anything 😅</p>
+        <br />
+
+        <br />
+
+        <label for="rating">rate the page :</label>
+        <select name="rating" id="rating">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <br />
+
+        <strong>or</strong>
+
+        <br />
+        <label for="rating">rate the page :</label>
+        <input
+          type="number"
+          id="rating"
+          name="rating"
+          min="0"
+          max="10"
+          value="0"
+        />
+      </form>
+    </main>
+    <footer>
+      <h2><i>to the one i love the most</i></h2>
+
+      <i>i don't want to do anything</i>
+      <br />
+      <i>i don't know what to do</i>
+      <br />
+      <i>i don't know if i'll ever be happy</i>
+      <br />
+      <i>but the only thing i'm sure about </i>
+      <br />
+      <i> It's that <strong>I love you</strong> </i>
+    </footer>
+  </body>
+</html>
