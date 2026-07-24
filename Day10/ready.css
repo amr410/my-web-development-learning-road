@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Quicksand:wght@400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+
+    background:
+        radial-gradient(circle at top,#2f506d 0%,#1c3048 45%,#101b2b 100%);
+
+    color:#F5F1E8;
+    font-family:"Quicksand",sans-serif;
+    text-align:center;
+    position:relative;
+}
+
+/* Main Card */
+
+.container{
+    max-width:700px;
+    padding:60px 50px;
+    margin:20px;
+
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(10px);
+
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+    z-index:2;
+}
+
+h1{
+    font-family:"Cormorant Garamond",serif;
+    font-size:3.2rem;
+    color:#F7E6B6;
+
+    margin-bottom:25px;
+
+    text-shadow:0 0 12px rgba(255,230,182,.25);
+}
+
+p{
+    font-size:1.3rem;
+    line-height:1.9;
+    margin:18px 0;
+    color:#F2ECE0;
+}
+
+.divider{
+    width:120px;
+    height:2px;
+    margin:30px auto;
+
+    background:#D7B36A;
+
+    box-shadow:0 0 12px rgba(215,179,106,.4);
+}
+
+/* Button */
+
+.button{
+    display:inline-block;
+
+    margin-top:35px;
+    padding:14px 34px;
+
+    text-decoration:none;
+
+    background:#D7B36A;
+    color:white;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 8px 25px rgba(215,179,106,.35);
+}
+
+.button:hover{
+    background:#E5C47C;
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 30px rgba(229,196,124,.45);
+}
+
+/* Snow */
+
+.snow{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    pointer-events:none;
+    z-index:1;
+}
+
+.snow::before,
+.snow::after{
+    content:"";
+
+    position:absolute;
+    inset:-100%;
+
+    background-image:
+        radial-gradient(circle,rgba(255,255,255,.95) 2px,transparent 2.5px),
+        radial-gradient(circle,rgba(255,255,255,.7) 1.5px,transparent 2px),
+        radial-gradient(circle,rgba(255,255,255,.5) 1px,transparent 1.5px);
+
+    background-size:
+        150px 150px,
+        220px 220px,
+        300px 300px;
+
+    animation:snowfall 20s linear infinite;
+}
+
+.snow::after{
+    animation-duration:30s;
+    opacity:.55;
+    transform:scale(1.15);
+}
+
+@keyframes snowfall{
+    from{
+        transform:translateY(-50%);
+    }
+    to{
+        transform:translateY(50%);
+    }
+}
